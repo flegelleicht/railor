@@ -2,6 +2,14 @@ class UploadController < ApplicationController
 	def show
 	end
 
+	def index
+		@view = OpenStruct.new({
+			images: Image.all.map{|i| 
+				OpenStruct.new(
+					url: "http://localhost:8888/unsafe/400x400/http://localhost:8888#{i.path}")}
+		})
+	end
+
 	def upload
 		picture = upload_params[:picture]
 		location = upload_to_thumbor(picture)
