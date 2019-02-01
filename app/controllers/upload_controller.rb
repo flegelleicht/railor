@@ -6,7 +6,7 @@ class UploadController < ApplicationController
 		@view = OpenStruct.new({
 			images: Image.all.map{|i| 
 				OpenStruct.new(
-					url: "http://localhost:8888/unsafe/400x400/http://localhost:8888#{i.path}")}
+					url: "http://localhost:8888/unsafe/600x400/filters:blur(20):max_bytes(10000)/http://localhost:8888#{i.location}")}
 		})
 	end
 
@@ -15,7 +15,7 @@ class UploadController < ApplicationController
 		location = upload_to_thumbor(picture)
 		Image.create do |image|
 			image.name = picture.original_filename
-			image.path = location
+			image.location	= location
 		end
 		redirect_to uploads_path
 	end
