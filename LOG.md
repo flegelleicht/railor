@@ -12,4 +12,5 @@
 
     $ alias rails='docker-compose exec railor rails'
 
-4.  
+4. Create controller for uploads
+    $ rails generate controller upload
