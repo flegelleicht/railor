@@ -1,5 +1,10 @@
 # README
 
+This is an experiment for figuring out how to best set up rails and thumbor for
+a project
+
+## README part 2
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
