@@ -11,4 +11,14 @@ services:
       - "3000:3000"
     tty: true
     stdin_open: true
+  
+  thumbor:
+    image: flgl/thumbor:6.7.0
+    hostname: thumbor
+    container_name: thumbor
+    environment:
+      UPLOAD_ENABLED: "True"
+      FILE_LOADER_ROOT_PATH: "/usr/local/thumbor/loader"
+    ports:
+      - "8888:8888"
 
