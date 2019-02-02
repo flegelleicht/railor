@@ -91,17 +91,37 @@
 	* maybe as described here:
 	  [https://en.99designs.de/tech-blog/blog/2013/07/01/thumbnailing-with-thumbor/](https://en.99designs.de/tech-blog/blog/2013/07/01/thumbnailing-with-thumbor/)
 
-## References
+## References (or.. things I (re-)learned)
 
 * thumbor
 	* [https://github.com/thumbor/thumbor/wiki/Usage](https://github.com/thumbor/thumbor/wiki/Usage)
 	* [https://www.dadoune.com/blog/best-thumbnailing-solution-set-up-thumbor-on-aws/](https://www.dadoune.com/blog/best-thumbnailing-solution-set-up-thumbor-on-aws/)
 	* [https://github.com/thumbor/ruby-thumbor](https://github.com/thumbor/ruby-thumbor)
 	* [https://blog.wikimedia.org/2017/12/09/thumbor-journey-development-deployment-strategy/](https://blog.wikimedia.org/2017/12/09/thumbor-journey-development-deployment-strategy/)
+	* [https://github.com/darkleaf/carrierwave-thumbor](https://github.com/darkleaf/carrierwave-thumbor)
 * Down- and uploading files from the commandline
 	* [https://stackoverflow.com/questions/12667797/using-curl-to-upload-post-data-with-files](https://stackoverflow.com/questions/12667797/using-curl-to-upload-post-data-with-files)
 	* [https://stackoverflow.com/questions/9134003/binary-data-posting-with-curl](https://stackoverflow.com/questions/9134003/binary-data-posting-with-curl)
 	* [https://stackoverflow.com/questions/17162995/downloading-a-file-from-the-command-line-using-python](https://stackoverflow.com/questions/17162995/downloading-a-file-from-the-command-line-using-python)
 * Rails
 	* [https://stackoverflow.com/questions/1992019/how-can-i-rename-a-database-column-in-a-ruby-on-rails-migration](https://stackoverflow.com/questions/1992019/how-can-i-rename-a-database-column-in-a-ruby-on-rails-migration)
+	* [Active Storage For Image Uploads | Ruby on Rails 5.2 Tutorial](https://www.youtube.com/watch?v=fVtGy3QL9xg)
+	* [https://www.pluralsight.com/guides/handling-file-upload-using-ruby-on-rails-5-api](https://www.pluralsight.com/guides/handling-file-upload-using-ruby-on-rails-5-api)
+	* [https://stackoverflow.com/questions/14174044/uploading-a-file-in-rails](https://stackoverflow.com/questions/14174044/uploading-a-file-in-rails)
+* Docker
+	* [https://stackoverflow.com/questions/35022428/rails-server-is-still-running-in-a-new-opened-docker-container](https://stackoverflow.com/questions/35022428/rails-server-is-still-running-in-a-new-opened-docker-container)
+	* [https://hub.docker.com/_/rails](https://hub.docker.com/_/rails)
+	* [https://medium.com/@wintermeyer/rails-5-2-and-ruby-2-5-install-how-to-bc287f3dacef](https://medium.com/@wintermeyer/rails-5-2-and-ruby-2-5-install-how-to-bc287f3dacef)
+	* [https://www.packet.com/blog/how-to-run-your-rails-app-on-docker/](https://www.packet.com/blog/how-to-run-your-rails-app-on-docker/)
+	* [https://docs.docker.com/compose/environment-variables/#pass-environment-variables-to-containers](https://docs.docker.com/compose/environment-variables/#pass-environment-variables-to-containers)
+* Bash
+	* [https://stackoverflow.com/questions/19622198/what-does-set-e-mean-in-a-bash-script](https://stackoverflow.com/questions/19622198/what-does-set-e-mean-in-a-bash-script)
+	* [https://stackoverflow.com/questions/3898665/what-is-in-bash](https://stackoverflow.com/questions/3898665/what-is-in-bash)
+	* [https://superuser.com/questions/694501/what-does-mean-as-a-bash-script-function-parameter](https://superuser.com/questions/694501/what-does-mean-as-a-bash-script-function-parameter)
+	* [https://stackoverflow.com/questions/4423306/how-do-i-find-the-number-of-arguments-passed-to-a-bash-script](https://stackoverflow.com/questions/4423306/how-do-i-find-the-number-of-arguments-passed-to-a-bash-script)
+* Vim
+	* [https://stackoverflow.com/questions/1456026/can-vim-commands-be-mapped-to-key-combinations-with-1-modifier-e-g-ctrl-alt-v](https://stackoverflow.com/questions/1456026/can-vim-commands-be-mapped-to-key-combinations-with-1-modifier-e-g-ctrl-alt-v)
+	* [https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces](https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces)
+* iTunes
+	* [https://support.imazing.com/hc/en-us/articles/115001501333--Back-Up-button-is-greyed-out-in-iTunes](https://support.imazing.com/hc/en-us/articles/115001501333--Back-Up-button-is-greyed-out-in-iTunes)
 
