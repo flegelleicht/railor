@@ -6,7 +6,6 @@ class UploadController < ApplicationController
 		@view = OpenStruct.new({
 			images: Image.all.map{|i| 
 				OpenStruct.new(
-					#url: "http://localhost:8888/unsafe/600x400/filters:blur(20):max_bytes(10000)/http://localhost:8888#{i.location}"
 					url: "/thumbor/#{i.id}"
 				)}
 		})
@@ -38,14 +37,6 @@ class UploadController < ApplicationController
 			payload: file.tempfile
 		)
 		res.headers[:location]
-#		require "net/http"
-#		uri = URI("http://thumbor:8888/image")
-#		http = Net::HTTP.new(uri.host, uri.port)
-#		req = Net::HTTP::Post.new(uri.path)
-#		req.body = IO.read(file.tempfile)
-#		req.content_type = "image/jpeg"
-#		res = http.request(req)
-#		res.each_header.to_h["location"]
 	end
 end
 
