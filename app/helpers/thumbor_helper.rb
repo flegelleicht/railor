@@ -1,0 +1,2 @@
+module ThumborHelper
+end
