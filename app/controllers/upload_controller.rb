@@ -5,8 +5,12 @@ class UploadController < ApplicationController
 	def index
 		@view = OpenStruct.new({
 			images: Image.all.map{|i| 
+				url = Thumbor::Cascade.new(
+					ENV['THUMBOR_SECURITY_KEY'], 
+					"http://thumbor:8888#{i.location}"
+				).width(600).height(400).generate
 				OpenStruct.new(
-					url: "/thumbor/#{i.id}"
+					url: "http://localhost:8888#{url}"
 				)}
 		})
 	end
