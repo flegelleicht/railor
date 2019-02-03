@@ -11,6 +11,7 @@ services:
       - "3000:3000"
     environment:
       RAILS_ENV: "development"
+      THUMBOR_SECURITY_KEY: "${SECURITY_KEY}"
     tty: true
     stdin_open: true
   
@@ -21,6 +22,7 @@ services:
     environment:
       UPLOAD_ENABLED: "True"
       FILE_LOADER_ROOT_PATH: "/usr/local/thumbor/loader"
+      SECURITY_KEY: "${SECURITY_KEY}"
     ports:
       - "8888:8888"
 
